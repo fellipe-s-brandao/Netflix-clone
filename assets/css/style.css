@@ -1,0 +1,50 @@
+/* fonte logo netflix */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* ------------------ */
+
+/* variaveis */
+:root{
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--preto);
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+header div{
+  align-items: center;
+  padding: 20px;
+}
+
+.logo{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  color: var(--vermelho);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.menu li a{
+  color: #AAA;
+  margin-left: 15px;
+  transition: all 0.3s;
+}
+
+.menu li a:hover{
+  color: white;
+}
